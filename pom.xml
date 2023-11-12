@@ -11,6 +11,8 @@
     <modules>
         <module>cloud-common</module>
         <module>cloud-web</module>
+        <module>cloud-feign-provider</module>
+        <module>cloud-feign-consumer</module>
     </modules>
 
     <properties>

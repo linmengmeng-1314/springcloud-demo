@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author linmengmeng
  * @since 2023/11/12 14:12
  */
-@FeignClient(contextId = "TestFeignFallbackService", name = ServiceNameConstants.OPERATION_SERVICE
+@FeignClient(contextId = "TestFeignFallbackService", name = ServiceNameConstants.PROVIDER_SERVICE
         , configuration = FeignSupportConfig.class, fallbackFactory = TestFeignFallbackServiceFallback.class)
 public interface TestFeignFallbackService {
 

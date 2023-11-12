@@ -1,9 +1,9 @@
 server:
-  port: ${SERVER_PORT:38001}
+  port: ${SERVER_PORT:37001}
 
 spring:
   application:
-    name: cloud-web-service
+    name: cloud-feign-provider-service
   main:
     allow-bean-definition-overriding: true
     allow-circular-references: true

@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: ${PROFILES_ACTIVE:local}
+  cloud:
+    service-registry:
+      auto-registration:
+        enabled: ${NACOS_AUTO_REGISTRY_ENABLE:true}
+    nacos:
+      discovery:
+        server-addr: ${NACOS_HOST:192.168.104.141}:${NACOS_PORT:8848}
+        username: ${NACOS_USERNAME:airadar-nacos}
+        password: ${NACOS_PASSWORD:KOPZYuFtApmCFVm6VHhvPUed03mIauUY}
+        group: Lin
+      config:
+        server-addr: ${NACOS_HOST:192.168.104.141}:${NACOS_PORT:8848}
+        username: ${NACOS_USERNAME:airadar-nacos}
+        password: ${NACOS_PASSWORD:KOPZYuFtApmCFVm6VHhvPUed03mIauUY}
+        group: Lin
+        prefix: ai.kg-data-upgrade-service
+        file-extension: yaml

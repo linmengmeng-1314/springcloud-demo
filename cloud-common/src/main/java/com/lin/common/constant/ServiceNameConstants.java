@@ -8,9 +8,9 @@ package com.lin.common.constant;
 public class ServiceNameConstants
 {
     /**
-     * 运营中心模块
+     * 生产者模块
      */
-    public static final String OPERATION_SERVICE = "operation-service";
+    public static final String PROVIDER_SERVICE = "cloud-feign-provider-service";
 
 
 }
